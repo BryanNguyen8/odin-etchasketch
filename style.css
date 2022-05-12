@@ -1,0 +1,16 @@
+body {
+    align-content: center;
+}
+
+.container { 
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width: 960px;
+    height: 960px;
+    border: solid 1px black;
+    gap: 0px;
+}
+
+.square {
+    background-color: white;
+}
